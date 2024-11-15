@@ -1,0 +1,15 @@
+# Ignore the files in the logs directory but keep the directory itself
+logs/*
+!logs/.gitkeep
+
+# Ignore the binary files
+server/server
+client/client
+
+# Go Specific things
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
